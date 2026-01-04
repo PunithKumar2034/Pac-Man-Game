@@ -1,10 +1,21 @@
-# [Pacman](https://youtu.be/lB_J-VNMVpE)
-- Coding Tutorial: [https://youtu.be/lB_J-VNMVpE](https://youtu.be/lB_J-VNMVpE)
+Pac-Man Java Edition 
+A fully functional, customized Pac-Man game built using Java Swing. While the core logic was inspired by community tutorials, this version has been significantly overhauled with custom themes, enhanced game states, and improved Ghost AI logic.
 
-In this tutorial, you will learn to create the pacman game with the built-in java awt/swing graphics library.
+*Key Features & My Customizations
+This project evolved far beyond the initial tutorial source. 
+Here are the significant changes I implemented:
+-Complete Theme Overhaul: I changed the entire visual aesthetic of the game, including custom sprites for Pac-Man, the ghosts, and the environment.
+-Game State Management: Added a dedicated Initial (Start) Tab and a Game Over screen to provide a complete user experience.
+-Enhanced Ghost AI: I programmed custom movement logic for the ghosts to make them more challenging and unpredictable.
+-Danger Zone Loop: Implemented a "Danger Zone" logic loop that triggers specific behaviors when ghosts are in close proximity to the player.
+-Sound Integration: Added immersive sound effects for movement, eating, and game events.
 
-Throughout the tutorial, you will learn how to create the game loop, create a jframe and jpanel, draw images on the jpanel, load the game map using a tilemap, add click handlers to make the pacman move, create a simple algorithm to move each ghost at random, detect collisions between the pacman and ghosts, have pacman eat the food pellets, add a running score, and reset the game when pacman collides with a ghost. 
+How to Play
+*Objective: Eat all the gold pellets while avoiding the four ghosts.
+*Controls: Use the Arrow Keys (Up, Down, Left, Right) to navigate the maze.
+*Power Pellets: Eat the large pellets to turn the ghosts blue and gain the ability to eat them for extra points.
 
-[How to setup Java with Visual Studio Code](https://youtu.be/BB0gZFpukJU)
-
-![pacman-ss](https://github.com/user-attachments/assets/9f16553b-9092-4894-b740-b8903ed24fa9)
+Built With
+    -Language: Java
+    -Library: Java Swing & AWT (for Graphics and UI)
+    -Development Environment: VS Code / IntelliJ IDEA
