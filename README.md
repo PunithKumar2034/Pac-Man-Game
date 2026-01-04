@@ -19,3 +19,7 @@ Built With
     -Language: Java
     -Library: Java Swing & AWT (for Graphics and UI)
     -Development Environment: VS Code / IntelliJ IDEA
+
+# Pac-Man Java Edition 🕹️
+
+![Gameplay Screenshot](screenshot.png)
